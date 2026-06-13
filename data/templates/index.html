@@ -8,10 +8,11 @@
   </head>
   <body>
     <h1>{{ ring_name }}</h1>
-	<p>{{ ring_description }}</p>
+    <div class="container row">
+      <img src="./helm.webp">
+	  <p>{{ ring_description }}</p>
+	</div>
     {{ table_of_sites | safe}}
-
-
 	<br>
 	<footer>
 	  <p>Last updated: {{ current_time }} </p>

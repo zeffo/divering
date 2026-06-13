@@ -1,10 +1,51 @@
+:root {
+  --font-family-normal: "Outfit", sans-serif;
+  --font-family-title: "Lexend", sans-serif;
+  /*--font-family-monospace: "Cascadia Mono" "Roboto Mono", monospace;*/
+
+  --color-charcoal: #2f2f2f;
+  --color-lukewarm-charcoal: #313546;
+  --color-warm-charcoal: #616682;
+  --color-underwater-blue: #292d3e;
+  --color-black: #1e1e1e;
+  --color-blacker: #151515;
+  --color-text-main: #f0eeff;
+  --color-text-subtle: #c9cfea;
+  --color-text-highlight: #fff;
+  --color-white: #fefefc;
+  --color-faff-pink: #ffaff3;
+  --color-aged-plastic-yellow: #fffbe8;
+  --color-unnamed-blue: #a6f0fc;
+  --color-unexpected-aubergine: #584355;
+
+  --color-code-blue: #9ce7ff;
+  --color-code-green: #c8ffa7;
+  --color-code-grey: #d4d4d4;
+  --color-code-dark-grey: #848484;
+  --color-code-yellow: #fdffab;
+  --color-code-pink: var(--color-faff-pink);
+  --color-code-red: #ff6262;
+  --color-code-orange: #ffd596;
+  --color-code-light-pink: #ffddfa;
+}
+
 body {
     font-family: sans-serif;
 	line-height: 1.6;
-    background-color: #111;
-    color: #fff;
+    background-color: var(--color-underwater-blue);
+    color: var(--color-white);
 	max-width: 80rem;
 	margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.row {
+  flex-direction: row;
 }
 
 h1 {
@@ -16,15 +57,14 @@ h1,h2,h3,h4 {
 }
 
 a {
-    color: #f3c;
+    color: var(--color-unnamed-blue);
     text-decoration: none;
     background-color: transparent;
 }
 
 a:hover, a:focus {
     text-decoration: none; 
-    background-color: #f3c;
-    color: #fff; 
+    text-shadow: 0 0 10px var(--color-code-blue);
 }
 
 table {	
@@ -36,14 +76,13 @@ table {
 
 tr { 
     margin-bottom: 10px; 
+    background-color: var(--color-charcoal); /* Light gray for odd rows */
 }
 
-tr:nth-child(odd) {
-        background-color: #222; /* Light gray for odd rows */
-}
+
 
 tr:hover {
-    background-color: #444; /*  hover effect for table rows */
+    background-color: var(--color-code-dark-grey); /*  hover effect for table rows */
 }
 
 th, td {
@@ -56,7 +95,7 @@ th, td {
 }
 
 th {
-    background-color: #444;
+    background-color: var(--color-black);
     text-align: center;
 	font-size: 1.1em;
 	font-family: Courier New, Courier, Consolas, monospace;

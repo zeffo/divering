@@ -5,33 +5,5 @@
 		"about": ":3",
         "url": "https://zeffo.me",
 		"owner": "aman"
-    },
-	{
-        "name": "fried",
-        "slug": "fried",
-		"about": "~",
-        "url": "https://friedchaawal.github.io",
-		"owner": "Fried Chaawal"
-    },
-    {
-        "name": "aeshani",
-        "slug": "aeshani",
-        "about": "poop criminal website",
-        "url": "https://aeshanisingh.com",
-        "owner": "aeshani"
-    },
-    {
-        "name": "Mooncell07",
-        "slug": "nova",
-        "about": "Personal site for learning web dev",
-        "url": "https://mooncell07.me",
-        "owner": "arcindex@proton.me"
-    },
-    {
-        "name": "sky99cents",
-        "slug": "sky99cents",
-        "about": " yes ",
-        "url": "https://sky99cents.me/",
-        "owner": "Aamir Mumtaz"
     }
 ]

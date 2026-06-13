@@ -8,5 +8,5 @@ If you want, you can use these webring buttons handcrafted by @fried_chaawal:
 
 ![helmet](./buttons/helm.webp)
 
-![arrow](./button/seadra.webp)
+![arrow](./buttons/seadra.webp)
 
